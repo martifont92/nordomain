@@ -1,0 +1,190 @@
+body{
+	font-family: 'Lato', sans-serif;
+	min-height: 100vh;
+  	position: relative;
+  	margin: 0;
+  	padding-bottom: 100px;
+  	box-sizing: border-box;
+  	color: #545454;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 900;
+}
+
+li{
+	list-style: none;
+	display: inline;
+}
+
+.faqs{
+	margin-top: 30px;
+}
+
+.faqs h1{
+	margin-bottom: 25px;
+}
+
+.faqs h3{
+	color: #5cd3b4;
+}
+
+.faqs a{
+	color: #5cd3b4;
+}
+
+.domains-available ul {
+	padding: 0 0 1em 0;
+}
+
+.domains-available a{
+	color: #5cd3b4;
+	margin-right: 5px;
+}
+
+.navbar-brand{
+	font-weight: bold;
+	letter-spacing: .05em;
+}
+
+.navbar{
+	border-bottom: 2px solid #DCDCDC;
+	font-weight: 400;
+}
+
+.nav-link:hover {
+    color: #5cd3b4 !important;
+}
+
+.jumbotron{
+	background-color: #5cd3b4;
+	color: #fff;
+	text-align: center;
+	margin-top: 40px;
+	border-radius: 6px;
+}
+
+.jumbotron h1{
+	font-weight: 900;
+}
+
+.pricing {
+	margin-top: 30px;
+}
+
+.pricing h1{
+	font-size: 1000%;
+	color: #5cd3b4;
+}
+
+.pricing h2{
+	color: #545454;
+	margin: 0 0 10px 0;
+	padding: 0 20px 5px 0;
+	display: inline-block;
+	background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #5cd3b4 50%)
+}
+
+.card-price{
+	margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+	width: 22rem;
+	background-color: #F8F8F8;
+}
+
+.card-domains{
+	border-color: #5cd3b4;
+}
+
+/* Login & Signup form */
+.form-control {
+	border-color: #eee;
+	min-height: 41px;
+	box-shadow: none !important;
+}
+.form-control:focus {
+	border-color: #5cd3b4;
+}
+.form-control, .btn {        
+	border-radius: 3px;
+}
+.signup-form {
+	width: 500px;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.signup-form form {
+	color: #999;
+	border-radius: 3px;
+	margin-bottom: 15px;
+	background: #fff;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	padding: 30px;
+}
+
+.signup-form h2 {
+	color: #545454;
+	margin: 0 0 10px 0;
+	padding: 0 20px 5px 0;
+	display: inline-block;
+	background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #5cd3b4 50%);
+}
+
+.signup-form .form-group row {
+	margin-bottom: 20px;
+}
+.signup-form label {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2;
+}
+.signup-form input[type="checkbox"] {
+	position: relative;
+	top: 1px;
+}
+.signup-form .btn {        
+	font-size: 16px;
+	font-weight: bold;
+	background: #5cd3b4;
+	border: none;
+	margin-top: 20px;
+	min-width: 140px;
+}
+.signup-form .btn:hover, .signup-form .btn:focus {
+	background: #41cba9;
+	outline: none !important;
+}
+.signup-form a {
+	color: #5cd3b4;
+	text-decoration: underline;
+}
+.signup-form a:hover {
+	text-decoration: none;
+}
+.signup-form form a {
+	color: #5cd3b4;
+	text-decoration: none;
+}	
+.signup-form form a:hover {
+	text-decoration: underline;
+}
+/* end Login & Signup form */
+
+.footer{
+	margin-top: 25px;
+}
+
+.footer-links li a{
+	opacity: .4;
+	color: #000;
+	text-decoration: none;
+	margin-right: 25px;
+}
+
+.copyright{
+	opacity: .4;
+	color: #000;
+	text-decoration: none;
+}
